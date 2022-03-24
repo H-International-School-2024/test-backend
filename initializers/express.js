@@ -3,6 +3,8 @@ import cors from 'cors';
 
 import userEndpoints from '../app/endpoints/users/index.js';
 
+let i = 0;
+
 const init = async () => {
   const app = express();
   
